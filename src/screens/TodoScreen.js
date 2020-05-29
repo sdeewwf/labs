@@ -17,14 +17,14 @@ export const TodoScreen = ({ goBack, todo, onRemove, onSave }) => {
             
             <AppCard style={styles.card}>
                 <Text style={styles.title}>{todo.title}</Text>
-                <Button title="Ред." onPress={() => setModal(true)} />
+                <Button color = "red" title="Ред." onPress={() => setModal(true)} />
             </AppCard>
             <View style={styles.buttons}>
                 <View style={styles.button}>
-                    <Button title="Назад" color="#757575" onPress={goBack} />
+                    <Button title="Назад" color="red" onPress={goBack} />
                 </View>
                 <View style={styles.button}>
-                    <Button title="Удалить" color="#e53935" onPress={() => onRemove(todo.id)} />
+                    <Button title="Удалить" color="red" onPress={() => onRemove(todo.id)} />
                 </View>
             </View>
         </View>

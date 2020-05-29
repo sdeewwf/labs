@@ -7,9 +7,10 @@ import { TodoScreen } from "./src/screens/TodoScreen";
 export default function App() {
   const [todoId, setTodoId] = useState(null);
   const [todos, setTodos] = useState([
-    { id: "1", title: "Когда же это кончится" },
-    { id: "2", title: "Быстрей бы весна" },
-    { id: "3", title: "А потом сессия..." }
+    {id: "1", title: "Вот доделаю лабу"},
+    {id: "2", title: "А потом спать"},
+    {id: "3", title: "Или смотреть аниме?"},
+    {id: "4", title: "Я не смотрю аниме, Василий Сергеевич.."}
   ]);
 
   const addTodo = title => {

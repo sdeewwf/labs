@@ -21,7 +21,7 @@ export const AddTodo = ({ onSubmit }) => {
             value={value}
             placeholder="Напишите задачу"
             />
-            <Button title="Добавить" onPress={pressHandler} />
+            <Button color = "red" title="ГЛЭК" onPress={pressHandler} />
         </View>
     );
 };
@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
         padding: 10,
         borderStyle: 'solid',
         borderBottomWidth: 2,
-        borderBottomColor: '#3949ab',
+        borderBottomColor: 'red',
     }
 });
